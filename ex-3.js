@@ -14,6 +14,6 @@ const employee = {
   },
 };
 
-console.log(employee.name);
-console.log(employee.age);
-console.log(employee.address.street + ", " + employee.address.city + ", " + employee.address.states + ", " + employee.address.country + ", " + employee.address.postalCode);
+console.log("Employee name: " + employee.name);
+console.log("Employee age: " + employee.age);
+console.log("Employee address: " + employee.address.street + ", " + employee.address.city + ", " + employee.address.states + ", " + employee.address.country + ", " + employee.address.postalCode);
